@@ -8,6 +8,6 @@ def same_structure_as(np1, np2):
             return False
 
         # т.к. типы 2 элементов одинаковые, можно сравнить только 1
-        elif type(lst1) is not int:
+        elif type(lst1) is list:
             return same_structure_as(lst1, lst2)
     return True
